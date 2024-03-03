@@ -3,4 +3,4 @@ function Chai(){
         <h2>Rajus chai</h2> 
     )
 }
-export default Cshai
+export default Chai
