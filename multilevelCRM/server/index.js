@@ -27,11 +27,11 @@ app.use("/general",generalRoutes)
 app.use("/sales",salesRoutes)
 
 /* mongoose */
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 9000
 mongoose
 .connect(process.env.MONGO_URL,{
-    // useNewUrlParser: true,
-    // useUnifiedTopology:true,
+    useNewUrlParser: true,
+    useUnifiedTopology:true,
 }).then(()=>{
     // console.log("here")
     app.listen(PORT, ()=> console.log(`server started ${PORT}`) )
