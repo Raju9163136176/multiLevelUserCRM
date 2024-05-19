@@ -1,1 +1,1 @@
-startiing yo work on it
+youtube till 35:29 
