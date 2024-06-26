@@ -1,4 +1,4 @@
-youtube till 55:00
+youtube till 1 hour 2 mins
 till 3:50 mins then work on the account segregation and password managements
 1week target
 then document upload
