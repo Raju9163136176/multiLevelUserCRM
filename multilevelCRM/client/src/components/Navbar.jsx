@@ -7,7 +7,10 @@ import images from "assets/images.jpg"
 import { useTheme } from '@emotion/react'
 import { AppBar, IconButton, InputBase, Toolbar, useMediaQuery } from '@mui/material'
 import shadows from '@mui/material/styles/shadows'
-const Navbar=() => {
+const Navbar=({
+  isSidebarOpen,
+  setisSidebarOpen
+}) => {
     const dispatch = useDispatch()
     const theme = useTheme()
   return <AppBar
@@ -27,7 +30,7 @@ sx={{
 >
 
 <FlexBetween>
-  <IconButton onClick={ ()=>console.log("test")}>
+  <IconButton onClick={ ()=>setisSidebarOpen(!isSidebarOpen)}>
     <MenuIcon/>
   </IconButton>
   <FlexBetween

@@ -39,7 +39,7 @@ const navItems = [
     icon: <HomeOutlined />,
   },
   {
-    text: "Client Facing",
+    text: "Agent Facing",
     icon: null,
   },
   {
@@ -59,7 +59,7 @@ const navItems = [
     icon: <PublicOutlined />,
   },
   {
-    text: "Sales",
+    text: "Admin",
     icon: null,
   },
   {
@@ -96,7 +96,7 @@ const Sidebar = ({
   user,
   drawerWidth,
   isSidebarOpen,
-  setIsSidebarOpen,
+  setisSidebarOpen,
   isNonMobile,
 }) => {
   const { pathname } = useLocation();
@@ -113,7 +113,7 @@ const Sidebar = ({
       {isSidebarOpen && (
         <Drawer
           open={isSidebarOpen}
-          onClose={() => setIsSidebarOpen(false)}
+          onClose={() => setisSidebarOpen(false)}
           variant="persistent"
           anchor="left"
           sx={{
@@ -136,7 +136,7 @@ const Sidebar = ({
                   </Typography>
                 </Box>
                 {!isNonMobile && (
-                  <IconButton onClick={() => setIsSidebarOpen(!isSidebarOpen)}>
+                  <IconButton onClick={() => setisSidebarOpen(!isSidebarOpen)}>
                     <ChevronLeft />
                   </IconButton>
                 )}
@@ -193,39 +193,7 @@ const Sidebar = ({
             </List>
           </Box>
 
-          <Box position="absolute" bottom="2rem">
-            <Divider />
-            <FlexBetween textTransform="none" gap="1rem" m="1.5rem 2rem 0 3rem">
-              <Box
-                component="img"
-                alt="profile"
-                src={profileImage}
-                height="40px"
-                width="40px"
-                borderRadius="50%"
-                sx={{ objectFit: "cover" }}
-              />
-              <Box textAlign="left">
-                <Typography
-                  fontWeight="bold"
-                  fontSize="0.9rem"
-                >
-                  {/* {user.name} */} Raju
-                </Typography>
-                <Typography
-                  fontSize="0.8rem"
-                >
-                  {/* {user.occupation} */} Student
-                </Typography>
-              </Box>
-              <SettingsOutlined
-                sx={{
-                  color: theme.palette.secondary[300],
-                  fontSize: "25px ",
-                }}
-              />
-            </FlexBetween>
-          </Box>
+          
         </Drawer>
       )}
     </Box>
