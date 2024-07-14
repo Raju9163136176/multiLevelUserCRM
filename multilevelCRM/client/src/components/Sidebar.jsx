@@ -43,19 +43,23 @@ const navItems = [
     icon: null,
   },
   {
-    text: "Products",
+    text: "New Application",
     icon: <ShoppingCartOutlined />,
   },
   {
-    text: "Customers",
+    text: "Old Application",
     icon: <Groups2Outlined />,
   },
   {
-    text: "Transactions",
+    text: "All Courses",
     icon: <ReceiptLongOutlined />,
   },
   {
-    text: "Geography",
+    text: "Agent Communication",
+    icon: <PublicOutlined />,
+  },
+  {
+    text: "Notices",
     icon: <PublicOutlined />,
   },
   {
@@ -63,31 +67,35 @@ const navItems = [
     icon: null,
   },
   {
-    text: "Overview",
+    text: "New Applications",
     icon: <PointOfSaleOutlined />,
   },
   {
-    text: "Daily",
+    text: "Student Information",
     icon: <TodayOutlined />,
   },
   {
-    text: "Monthly",
+    text: "Agent Communication",
     icon: <CalendarMonthOutlined />,
   },
   {
-    text: "Breakdown",
+    text: "Track Application",
     icon: <PieChartOutlined />,
   },
   {
-    text: "Management",
+    text: "Settings",
     icon: null,
   },
   {
-    text: "Admin",
+    text: "Personal Info",
     icon: <AdminPanelSettingsOutlined />,
   },
   {
-    text: "Performance",
+    text: "Add New Counsellor",
+    icon: <TrendingUpOutlined />,
+  },
+  {
+    text: "Add New user",
     icon: <TrendingUpOutlined />,
   },
 ];
@@ -132,7 +140,7 @@ const Sidebar = ({
               <FlexBetween color={theme.palette.secondary.main}>
                 <Box display="flex" alignItems="center" gap="0.5rem">
                   <Typography variant="h4" fontWeight="bold">
-                    ECOMVISION
+                    Application Portal
                   </Typography>
                 </Box>
                 {!isNonMobile && (
@@ -157,8 +165,8 @@ const Sidebar = ({
                   <ListItem key={text} disablePadding>
                     <ListItemButton
                       onClick={() => {
-                        navigate(`/${lcText}`);
-                        setActive(lcText);
+                        navigate(`/${lcText.trim()}`);
+                        setActive(lcText.trim());
                       }}
                       sx={{
                         backgroundColor:
