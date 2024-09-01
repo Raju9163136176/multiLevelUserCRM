@@ -1,7 +1,7 @@
 import React from "react";
 import {
   Box,
-  Divider,
+  // Divider,
   Drawer,
   IconButton,
   List,
@@ -31,7 +31,7 @@ import {
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import FlexBetween from "./FlexBetween";
-import profileImage from "assets/images.jpg";
+// import profileImage from "assets/images.jpg";
 
 const navItems = [
   {
@@ -55,7 +55,7 @@ const navItems = [
     icon: <ReceiptLongOutlined />,
   },
   {
-    text: "Agent Communication",
+    text: "Application Info ",
     icon: <PublicOutlined />,
   },
   {
@@ -67,12 +67,22 @@ const navItems = [
     icon: null,
   },
   {
-    text: "New Applications",
+    text: "All Applications",
+    icon: <PointOfSaleOutlined />,
+  },
+  
+  {
+    text: "Application's Info",
     icon: <PointOfSaleOutlined />,
   },
   {
     text: "Student Information",
     icon: <TodayOutlined />,
+  },
+  
+  {
+    text: "Add Courses",
+    icon: <SettingsOutlined />,
   },
   {
     text: "Agent Communication",
