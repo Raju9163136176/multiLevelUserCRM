@@ -5,6 +5,7 @@ import { useSelector } from "react-redux"
 import {BrowserRouter, Navigate, Route, Routes} from "react-router-dom"
 import {themeSettings} from "./theme"
  import Dashboard from "./scenes/dashboard"
+//  import adminDashboard from "./scenes/adminDashboard"
  import Layout from "./scenes/layout"
 function App() {
   const mode = useSelector((state)=>state.global.mode)
@@ -16,8 +17,9 @@ function App() {
           <CssBaseline/>
            <Routes>
               <Route element={<Layout/>}>
-                <Route path="/" element={<Navigate to="/dashboard" replace />} />
-                <Route path="/dashboard" element={<Dashboard/>} />
+                <Route path="/agent" element={<Navigate to="/agent/dashboard" replace />} />
+                <Route path="/agent/dashboard" element={<Dashboard/>} />
+                {/* <Route path="/admin/admindashboard" element={<adminDashboard/>} /> */}
               </Route>
 
            </Routes>

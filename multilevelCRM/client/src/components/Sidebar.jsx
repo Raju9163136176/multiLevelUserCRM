@@ -33,14 +33,15 @@ import { useLocation, useNavigate } from "react-router-dom";
 import FlexBetween from "./FlexBetween";
 // import profileImage from "assets/images.jpg";
 
-const navItems = [
-  {
-    text: "Dashboard",
-    icon: <HomeOutlined />,
-  },
+const navAgentItems = [
+
   {
     text: "Agent Facing",
     icon: null,
+  },
+  {
+    text: "Dashboard",
+    icon: <HomeOutlined />,
   },
   {
     text: "New Application",
@@ -62,9 +63,17 @@ const navItems = [
     text: "Notices",
     icon: <PublicOutlined />,
   },
+  
+];
+
+const navAdminItems = [
   {
     text: "Admin",
     icon: null,
+  },
+  {
+    text: "Admin Dashboard",
+    icon: <HomeOutlined />,
   },
   {
     text: "All Applications",
@@ -161,7 +170,7 @@ const Sidebar = ({
               </FlexBetween>
             </Box>
             <List>
-              {navItems.map(({ text, icon }) => {
+              {navAgentItems.map(({ text, icon }) => {
                 if (!icon) {
                   return (
                     <Typography key={text} sx={{ m: "2.25rem 0 1rem 3rem" }}>
@@ -169,13 +178,62 @@ const Sidebar = ({
                     </Typography>
                   );
                 }
-                const lcText = text.toLowerCase();
+                const lcText = text.toLowerCase().replace(/\s+/g, '');
 
                 return (
                   <ListItem key={text} disablePadding>
                     <ListItemButton
                       onClick={() => {
-                        navigate(`/${lcText.trim()}`);
+                        navigate(`/agent/${lcText.trim()}`);
+                        setActive(lcText.trim());
+                      }}
+                      sx={{
+                        backgroundColor:
+                          active === lcText
+                            ? theme.palette.secondary[300]
+                            : "transparent",
+                        color:
+                          active === lcText
+                            ? theme.palette.primary[600]
+                            : theme.palette.secondary[100],
+                      }}
+                    >
+                      <ListItemIcon
+                        sx={{
+                          ml: "2rem",
+                          color:
+                            active === lcText
+                              ? theme.palette.primary[600]
+                              : theme.palette.secondary[200],
+                        }}
+                      >
+                        {icon}
+                      </ListItemIcon>
+                      <ListItemText primary={text} />
+                      {active === lcText && (
+                        <ChevronRightOutlined sx={{ ml: "auto" }} />
+                      )}
+                    </ListItemButton>
+                  </ListItem>
+                );
+              })}
+            </List>
+            <List>
+              {navAdminItems.map(({ text, icon }) => {
+                if (!icon) {
+                  return (
+                    <Typography key={text} sx={{ m: "2.25rem 0 1rem 3rem" }}>
+                      {text}
+                    </Typography>
+                  );
+                }
+                const lcText = text.toLowerCase().replace(/\s+/g, '');
+
+                return (
+                  <ListItem key={text} disablePadding>
+                    <ListItemButton
+                      onClick={() => {
+                        navigate(`/admin/${lcText.trim()}`);
                         setActive(lcText.trim());
                       }}
                       sx={{
