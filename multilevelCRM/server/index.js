@@ -9,6 +9,10 @@ import clientRoutes from './routes/client.js'
 import managementRoutes from './routes/management.js'
 import generalRoutes from './routes/general.js'
 import salesRoutes from './routes/sales.js'
+// import mongoose from 'mongoose';
+
+import User from './models/user.js'
+import { dataUser } from './data/index.js'
 /* configuration */
 dotenv.config()
 const app = express()
@@ -35,5 +39,7 @@ mongoose
 }).then(()=>{
     // console.log("here")
     app.listen(PORT, ()=> console.log(`server started ${PORT}`) )
+    /* Onlyy add data one time  */
+    User.insertMany(dataUser)
 })
 .catch((error) => console.log(`${error} did not connect`) )
