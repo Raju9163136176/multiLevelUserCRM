@@ -17323,7 +17323,7 @@ export const dataAffiliateStat = [
         "63701d74f03239867500014b",
         "63701d74f032398675000152",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239c72c000180",
@@ -17341,7 +17341,7 @@ export const dataAffiliateStat = [
         "63701d74f03239569400002d",
         "63701d74f032394c4900014b",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239c72c000181",
@@ -17385,7 +17385,7 @@ export const dataAffiliateStat = [
         "63701d74f03239cdc500003f",
         "63701d74f03239bef0000159",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239c72c000183",
@@ -17402,7 +17402,7 @@ export const dataAffiliateStat = [
         "63701d74f032395b33000138",
         "63701d74f032394441000314",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239c72c000184",
@@ -17426,7 +17426,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d81e000032",
         "63701d74f03239db6900013d",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239c72c000185",
@@ -17449,7 +17449,7 @@ export const dataAffiliateStat = [
         "63701d74f03239867500012f",
         "63701d74f03239f09e0001ad",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239c72c000186",
@@ -17466,7 +17466,7 @@ export const dataAffiliateStat = [
         "63701d74f03239bef0000155",
         "63701d74f03239d81e00001e",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239c72c000187",
@@ -17487,7 +17487,7 @@ export const dataAffiliateStat = [
         "63701d74f03239f09e000196",
         "63701d74f03239d591000349",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239c72c000188",
@@ -17507,7 +17507,7 @@ export const dataAffiliateStat = [
         "63701d74f0323986f3000134",
         "63701d74f03239cdc5000032",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239c72c000189",
@@ -17527,7 +17527,7 @@ export const dataAffiliateStat = [
         "63701d74f03239bef0000147",
         "63701d74f03239b913000040",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239c72c00018a",
@@ -17547,7 +17547,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d40b00005d",
         "63701d74f03239528f000041",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239c72c00018b",
@@ -17598,7 +17598,7 @@ export const dataAffiliateStat = [
       occupation: "Research Associate",
       phoneNumber: "9889514743",
       transactions: ["63701d74f032394441000305"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239867500011b",
@@ -17655,7 +17655,7 @@ export const dataAffiliateStat = [
       occupation: "Health Coach I",
       phoneNumber: "8958889697",
       transactions: ["63701d74f0323944410002fc"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239867500011e",
@@ -17705,7 +17705,7 @@ export const dataAffiliateStat = [
         "63701d74f032394441000313",
         "63701d74f03239867500013e",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032398675000121",
@@ -17759,7 +17759,7 @@ export const dataAffiliateStat = [
         "63701d74f03239f09e000192",
         "63701d74f032394c4900014f",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032398675000124",
@@ -17782,7 +17782,7 @@ export const dataAffiliateStat = [
         "63701d74f032390a3400032b",
         "63701d74f032394441000303",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032398675000125",
@@ -17806,7 +17806,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d81e000027",
         "63701d74f032395694000045",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032398675000126",
@@ -17826,7 +17826,7 @@ export const dataAffiliateStat = [
         "63701d74f03239c72c0001be",
         "63701d74f032396b8e000025",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032398675000127",
@@ -17850,7 +17850,7 @@ export const dataAffiliateStat = [
         "63701d74f03239528f00001c",
         "63701d74f03239cdc500001a",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032398675000128",
@@ -17917,7 +17917,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d40b000071",
         "63701d74f03239528f00003f",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239b7f7000008",
@@ -17958,7 +17958,7 @@ export const dataAffiliateStat = [
         "63701d74f032395b33000152",
         "63701d74f03239bef0000131",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239b7f700000a",
@@ -17980,7 +17980,7 @@ export const dataAffiliateStat = [
         "63701d74f0323986f3000135",
         "63701d74f0323986f300013b",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239b7f700000b",
@@ -17999,7 +17999,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d81e00003e",
         "63701d74f032394c49000153",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239b7f700000c",
@@ -18037,7 +18037,7 @@ export const dataAffiliateStat = [
         "63701d74f03239f09e0001a4",
         "63701d74f03239c72c0001b6",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239b7f700000e",
@@ -18058,7 +18058,7 @@ export const dataAffiliateStat = [
         "63701d74f032399c00000151",
         "63701d74f03239c72c0001a1",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239b7f700000f",
@@ -18076,7 +18076,7 @@ export const dataAffiliateStat = [
         "63701d74f0323986f3000156",
         "63701d74f03239d591000334",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239b7f7000010",
@@ -18174,7 +18174,7 @@ export const dataAffiliateStat = [
         "63701d74f03239f09e00019f",
         "63701d74f03239528f00001b",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f0323944410002dd",
@@ -18195,7 +18195,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d40b000067",
         "63701d74f03239b91300002f",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f0323944410002de",
@@ -18227,7 +18227,7 @@ export const dataAffiliateStat = [
       occupation: "Graphic Designer",
       phoneNumber: "9558909811",
       transactions: ["63701d74f03239444100030c", "63701d74f03239569400002b"],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f0323944410002e0",
@@ -18251,7 +18251,7 @@ export const dataAffiliateStat = [
         "63701d74f03239c72c0001b6",
         "63701d74f03239569400001d",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f0323944410002e1",
@@ -18275,7 +18275,7 @@ export const dataAffiliateStat = [
         "63701d74f03239b913000030",
         "63701d74f03239cdc500001b",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f0323944410002e2",
@@ -18337,7 +18337,7 @@ export const dataAffiliateStat = [
         "63701d74f032395694000045",
         "63701d74f03239528f000042",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f0323944410002e5",
@@ -18357,7 +18357,7 @@ export const dataAffiliateStat = [
         "63701d74f032399c0000014f",
         "63701d74f032394441000303",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f0323944410002e6",
@@ -18379,7 +18379,7 @@ export const dataAffiliateStat = [
         "63701d74f032396b8e000034",
         "63701d74f03239867500013e",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f0323944410002e7",
@@ -18415,7 +18415,7 @@ export const dataAffiliateStat = [
         "63701d74f03239bef0000143",
         "63701d74f032396b8e000029",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f0323944410002e9",
@@ -18450,7 +18450,7 @@ export const dataAffiliateStat = [
         "63701d74f03239b913000029",
         "63701d74f03239d591000344",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f0323944410002eb",
@@ -18474,7 +18474,7 @@ export const dataAffiliateStat = [
         "63701d74f032395b33000142",
         "63701d74f03239d81e000024",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239d81e000006",
@@ -18496,7 +18496,7 @@ export const dataAffiliateStat = [
         "63701d74f032394c49000135",
         "63701d74f032396b8e000025",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239d81e000007",
@@ -18509,7 +18509,7 @@ export const dataAffiliateStat = [
       occupation: "Junior Executive",
       phoneNumber: "6543510407",
       transactions: ["63701d74f032396b8e00001f", "63701d74f032396b8e000033"],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239d81e000008",
@@ -18530,7 +18530,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d40b00005f",
         "63701d74f03239bef0000147",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239d81e000009",
@@ -18551,7 +18551,7 @@ export const dataAffiliateStat = [
         "63701d74f032399c00000151",
         "63701d74f03239cdc5000046",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239d81e00000a",
@@ -18568,7 +18568,7 @@ export const dataAffiliateStat = [
         "63701d74f03239db69000146",
         "63701d74f03239d40b00006e",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239d81e00000b",
@@ -18585,7 +18585,7 @@ export const dataAffiliateStat = [
         "63701d74f032395694000041",
         "63701d74f032396b8e000020",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239d81e00000c",
@@ -18619,7 +18619,7 @@ export const dataAffiliateStat = [
       occupation: "Chief Design Engineer",
       phoneNumber: "7296895830",
       transactions: ["63701d74f03239bef0000141"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239d81e00000e",
@@ -18640,7 +18640,7 @@ export const dataAffiliateStat = [
         "63701d74f03239db69000141",
         "63701d74f03239d59100032e",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239d81e00000f",
@@ -18676,7 +18676,7 @@ export const dataAffiliateStat = [
       occupation: "Engineer IV",
       phoneNumber: "2398256034",
       transactions: ["63701d74f03239b7f700003d", "63701d74f03239867500013f"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239d81e000011",
@@ -18696,7 +18696,7 @@ export const dataAffiliateStat = [
         "63701d74f03239867500014c",
         "63701d74f03239d59100034a",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239d81e000012",
@@ -18718,7 +18718,7 @@ export const dataAffiliateStat = [
         "63701d74f0323944410002f9",
         "63701d74f03239b7f700002e",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239d81e000013",
@@ -18731,7 +18731,7 @@ export const dataAffiliateStat = [
       occupation: "Electrical Engineer",
       phoneNumber: "9727176356",
       transactions: ["63701d74f0323986f3000143", "63701d74f032395694000022"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239d81e000014",
@@ -18749,7 +18749,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d591000344",
         "63701d74f032398675000133",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032390a34000318",
@@ -18796,7 +18796,7 @@ export const dataAffiliateStat = [
         "63701d74f032395b33000131",
         "63701d74f03239528f000032",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032390a3400031b",
@@ -18809,7 +18809,7 @@ export const dataAffiliateStat = [
       occupation: "Registered Nurse",
       phoneNumber: "4006862957",
       transactions: ["63701d74f032399c00000147"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032390a3400031c",
@@ -18840,7 +18840,7 @@ export const dataAffiliateStat = [
         "63701d74f0323986f3000142",
         "63701d74f03239b7f7000027",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032390a3400031e",
@@ -18858,7 +18858,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d81e000043",
         "63701d74f0323986f3000134",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032390a3400031f",
@@ -18881,7 +18881,7 @@ export const dataAffiliateStat = [
         "63701d74f032394c4900014a",
         "63701d74f03239db69000159",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032390a34000320",
@@ -18901,7 +18901,7 @@ export const dataAffiliateStat = [
         "63701d74f03239f09e0001ab",
         "63701d74f0323986f300013e",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032390a34000321",
@@ -18914,7 +18914,7 @@ export const dataAffiliateStat = [
       occupation: "General Manager",
       phoneNumber: "1882605759",
       transactions: ["63701d74f03239d591000330", "63701d74f032399c00000153"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032390a34000322",
@@ -18935,7 +18935,7 @@ export const dataAffiliateStat = [
         "63701d74f032395b3300014d",
         "63701d74f032394c4900015b",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032390a34000323",
@@ -18952,7 +18952,7 @@ export const dataAffiliateStat = [
         "63701d74f032390a3400032f",
         "63701d74f0323986f300013a",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032390a34000324",
@@ -18973,7 +18973,7 @@ export const dataAffiliateStat = [
         "63701d74f032399c0000014b",
         "63701d74f03239569400001a",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032390a34000325",
@@ -18990,7 +18990,7 @@ export const dataAffiliateStat = [
         "63701d74f032399c00000157",
         "63701d74f03239d591000352",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032390a34000326",
@@ -19014,7 +19014,7 @@ export const dataAffiliateStat = [
         "63701d74f03239b7f700002b",
         "63701d74f03239d40b000060",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032395b3300011b",
@@ -19027,7 +19027,7 @@ export const dataAffiliateStat = [
       occupation: "Editor",
       phoneNumber: "1985831106",
       transactions: ["63701d74f03239c72c0001b2", "63701d74f03239bef000012f"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032395b3300011c",
@@ -19079,7 +19079,7 @@ export const dataAffiliateStat = [
       occupation: "Financial Analyst",
       phoneNumber: "3121990932",
       transactions: ["63701d74f03239bef0000158", "63701d74f03239cdc500001f"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032395b3300011f",
@@ -19092,7 +19092,7 @@ export const dataAffiliateStat = [
       occupation: "Safety Technician II",
       phoneNumber: "6898002758",
       transactions: ["63701d74f03239c72c0001ba", "63701d74f032395694000037"],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032395b33000120",
@@ -19138,7 +19138,7 @@ export const dataAffiliateStat = [
         "63701d74f032394441000316",
         "63701d74f032398675000154",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032395b33000122",
@@ -19172,7 +19172,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d40b00005e",
         "63701d74f032395b3300013f",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032395b33000124",
@@ -19223,7 +19223,7 @@ export const dataAffiliateStat = [
       occupation: "Legal Assistant",
       phoneNumber: "6137536796",
       transactions: ["63701d74f03239528f000022", "63701d74f032390a3400033d"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032395b33000127",
@@ -19245,7 +19245,7 @@ export const dataAffiliateStat = [
         "63701d74f032399c0000013a",
         "63701d74f03239c72c0001b4",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032395b33000128",
@@ -19324,7 +19324,7 @@ export const dataAffiliateStat = [
         "63701d74f032390a3400033d",
         "63701d74f03239bef0000140",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239d59100031a",
@@ -19345,7 +19345,7 @@ export const dataAffiliateStat = [
         "63701d74f03239cdc5000044",
         "63701d74f032390a34000333",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239d59100031b",
@@ -19364,7 +19364,7 @@ export const dataAffiliateStat = [
         "63701d74f032395b33000130",
         "63701d74f03239528f00001c",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239d59100031c",
@@ -19384,7 +19384,7 @@ export const dataAffiliateStat = [
         "63701d74f032399c0000013f",
         "63701d74f03239bef0000131",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239d59100031d",
@@ -19402,7 +19402,7 @@ export const dataAffiliateStat = [
         "63701d74f03239c72c000198",
         "63701d74f032394c49000141",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239d59100031e",
@@ -19487,7 +19487,7 @@ export const dataAffiliateStat = [
         "63701d74f03239cdc5000035",
         "63701d74f0323986f3000141",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239d591000322",
@@ -19500,7 +19500,7 @@ export const dataAffiliateStat = [
       occupation: "Assistant Media Planner",
       phoneNumber: "5983301528",
       transactions: ["63701d74f032398675000133"],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239d591000323",
@@ -19530,7 +19530,7 @@ export const dataAffiliateStat = [
       occupation: "Administrative Officer",
       phoneNumber: "1704930868",
       transactions: ["63701d74f03239528f00001e"],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239d591000325",
@@ -19569,7 +19569,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d40b000079",
         "63701d74f03239c72c0001a0",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032395694000006",
@@ -19582,7 +19582,7 @@ export const dataAffiliateStat = [
       occupation: "VP Quality Control",
       phoneNumber: "8018242131",
       transactions: ["63701d74f03239d40b000088"],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032395694000007",
@@ -19595,7 +19595,7 @@ export const dataAffiliateStat = [
       occupation: "Programmer Analyst III",
       phoneNumber: "9953853099",
       transactions: ["63701d74f03239d81e000022", "63701d74f03239d591000356"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032395694000008",
@@ -19619,7 +19619,7 @@ export const dataAffiliateStat = [
         "63701d74f03239528f000032",
         "63701d74f03239d40b00007c",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032395694000009",
@@ -19640,7 +19640,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d81e00001a",
         "63701d74f03239b913000022",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239569400000a",
@@ -19653,7 +19653,7 @@ export const dataAffiliateStat = [
       occupation: "Paralegal",
       phoneNumber: "8256109065",
       transactions: ["63701d74f03239c72c000198", "63701d74f03239f09e0001ad"],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239569400000b",
@@ -19695,7 +19695,7 @@ export const dataAffiliateStat = [
         "63701d74f03239cdc500003e",
         "63701d74f03239d591000353",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239569400000d",
@@ -19717,7 +19717,7 @@ export const dataAffiliateStat = [
         "63701d74f032390a3400034a",
         "63701d74f0323986f300014f",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239569400000e",
@@ -19734,7 +19734,7 @@ export const dataAffiliateStat = [
         "63701d74f03239b7f700001b",
         "63701d74f032390a3400032d",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239569400000f",
@@ -19757,7 +19757,7 @@ export const dataAffiliateStat = [
         "63701d74f03239db69000144",
         "63701d74f03239bef0000144",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032395694000010",
@@ -19801,7 +19801,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d81e000019",
         "63701d74f03239444100030e",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032395694000012",
@@ -19825,7 +19825,7 @@ export const dataAffiliateStat = [
         "63701d74f03239c72c00019b",
         "63701d74f03239db6900015a",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032395694000013",
@@ -19844,7 +19844,7 @@ export const dataAffiliateStat = [
         "63701d74f032399c0000014e",
         "63701d74f03239b7f7000040",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032395694000014",
@@ -19865,7 +19865,7 @@ export const dataAffiliateStat = [
         "63701d74f032394c49000141",
         "63701d74f03239d81e000021",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032396b8e000006",
@@ -19882,7 +19882,7 @@ export const dataAffiliateStat = [
         "63701d74f03239528f000044",
         "63701d74f03239d81e000027",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032396b8e000007",
@@ -19923,7 +19923,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d81e000025",
         "63701d74f03239d81e00001e",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032396b8e000009",
@@ -19942,7 +19942,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d81e00001c",
         "63701d74f032399c00000130",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032396b8e00000a",
@@ -19965,7 +19965,7 @@ export const dataAffiliateStat = [
         "63701d74f032396b8e000029",
         "63701d74f03239444100030c",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032396b8e00000b",
@@ -19984,7 +19984,7 @@ export const dataAffiliateStat = [
         "63701d74f03239c72c000192",
         "63701d74f03239528f000028",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032396b8e00000c",
@@ -20005,7 +20005,7 @@ export const dataAffiliateStat = [
         "63701d74f032395b3300015a",
         "63701d74f03239d40b000083",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032396b8e00000d",
@@ -20024,7 +20024,7 @@ export const dataAffiliateStat = [
         "63701d74f0323986f3000133",
         "63701d74f032390a3400034c",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032396b8e00000e",
@@ -20070,7 +20070,7 @@ export const dataAffiliateStat = [
         "63701d74f03239f09e0001b3",
         "63701d74f03239d81e00002c",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032396b8e000010",
@@ -20110,7 +20110,7 @@ export const dataAffiliateStat = [
         "63701d74f032394c49000136",
         "63701d74f03239f09e000198",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032396b8e000012",
@@ -20130,7 +20130,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d81e00001f",
         "63701d74f032396b8e00001b",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032396b8e000013",
@@ -20168,7 +20168,7 @@ export const dataAffiliateStat = [
         "63701d74f03239db6900013b",
         "63701d74f032395694000030",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239bef000011b",
@@ -20209,7 +20209,7 @@ export const dataAffiliateStat = [
         "63701d74f03239cdc5000032",
         "63701d74f032390a34000337",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239bef000011d",
@@ -20294,7 +20294,7 @@ export const dataAffiliateStat = [
         "63701d74f03239b7f700003e",
         "63701d74f0323944410002f1",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239bef0000121",
@@ -20317,7 +20317,7 @@ export const dataAffiliateStat = [
         "63701d74f032399c0000013b",
         "63701d74f03239bef0000150",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239bef0000122",
@@ -20341,7 +20341,7 @@ export const dataAffiliateStat = [
         "63701d74f032394c4900013e",
         "63701d74f03239f09e0001a0",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239bef0000123",
@@ -20365,7 +20365,7 @@ export const dataAffiliateStat = [
         "63701d74f03239528f00003d",
         "63701d74f032395b3300014b",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239bef0000124",
@@ -20388,7 +20388,7 @@ export const dataAffiliateStat = [
         "63701d74f03239b7f7000026",
         "63701d74f032394441000310",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239bef0000125",
@@ -20401,7 +20401,7 @@ export const dataAffiliateStat = [
       occupation: "Safety Technician III",
       phoneNumber: "5498736984",
       transactions: ["63701d74f032399c00000156"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239bef0000126",
@@ -20414,7 +20414,7 @@ export const dataAffiliateStat = [
       occupation: "Senior Developer",
       phoneNumber: "9499366779",
       transactions: ["63701d74f03239d81e000033", "63701d74f03239c72c0001a5"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239bef0000127",
@@ -20474,7 +20474,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d40b00006f",
         "63701d74f032395b3300012f",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032394c4900011b",
@@ -20514,7 +20514,7 @@ export const dataAffiliateStat = [
         "63701d74f032396b8e00002b",
         "63701d74f032390a3400033b",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032394c4900011d",
@@ -20533,7 +20533,7 @@ export const dataAffiliateStat = [
         "63701d74f03239bef000014c",
         "63701d74f03239569400001f",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032394c4900011e",
@@ -20569,7 +20569,7 @@ export const dataAffiliateStat = [
       occupation: "Information Systems Manager",
       phoneNumber: "2275289998",
       transactions: ["63701d74f03239db69000137", "63701d74f032394c49000134"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032394c49000120",
@@ -20606,7 +20606,7 @@ export const dataAffiliateStat = [
         "63701d74f032395694000020",
         "63701d74f032399c00000154",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032394c49000122",
@@ -20623,7 +20623,7 @@ export const dataAffiliateStat = [
         "63701d74f0323986f3000140",
         "63701d74f0323944410002fe",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032394c49000123",
@@ -20646,7 +20646,7 @@ export const dataAffiliateStat = [
         "63701d74f032394c49000135",
         "63701d74f03239d591000331",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032394c49000124",
@@ -20710,7 +20710,7 @@ export const dataAffiliateStat = [
         "63701d74f03239bef0000140",
         "63701d74f03239528f000031",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032394c49000128",
@@ -20742,7 +20742,7 @@ export const dataAffiliateStat = [
         "63701d74f03239c72c0001b2",
         "63701d74f03239cdc500002d",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239528f000006",
@@ -20786,7 +20786,7 @@ export const dataAffiliateStat = [
         "63701d74f032390a3400033d",
         "63701d74f03239f09e0001a4",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239528f000008",
@@ -20828,7 +20828,7 @@ export const dataAffiliateStat = [
         "63701d74f032396b8e000041",
         "63701d74f03239b91300003d",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239528f00000a",
@@ -20854,7 +20854,7 @@ export const dataAffiliateStat = [
       occupation: "VP Sales",
       phoneNumber: "3663656410",
       transactions: ["63701d74f03239d591000331", "63701d74f03239b7f700003c"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239528f00000c",
@@ -20871,7 +20871,7 @@ export const dataAffiliateStat = [
         "63701d74f03239f09e00019d",
         "63701d74f03239d40b000063",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239528f00000d",
@@ -20905,7 +20905,7 @@ export const dataAffiliateStat = [
         "63701d74f03239f09e000198",
         "63701d74f032396b8e000044",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239528f00000f",
@@ -20946,7 +20946,7 @@ export const dataAffiliateStat = [
         "63701d74f03239528f000044",
         "63701d74f03239d591000335",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239528f000011",
@@ -20968,7 +20968,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d59100034d",
         "63701d74f03239cdc500002a",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239528f000012",
@@ -20988,7 +20988,7 @@ export const dataAffiliateStat = [
         "63701d74f03239f09e0001b7",
         "63701d74f0323986f3000152",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239528f000013",
@@ -21005,7 +21005,7 @@ export const dataAffiliateStat = [
         "63701d74f032396b8e000026",
         "63701d74f032394c49000131",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239528f000014",
@@ -21028,7 +21028,7 @@ export const dataAffiliateStat = [
         "63701d74f03239c72c0001b1",
         "63701d74f032394c49000136",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239f09e00017f",
@@ -21047,7 +21047,7 @@ export const dataAffiliateStat = [
         "63701d74f032394441000303",
         "63701d74f03239b7f700003e",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239f09e000180",
@@ -21069,7 +21069,7 @@ export const dataAffiliateStat = [
         "63701d74f0323986f3000145",
         "63701d74f03239db6900014d",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239f09e000181",
@@ -21122,7 +21122,7 @@ export const dataAffiliateStat = [
         "63701d74f032390a3400034a",
         "63701d74f032396b8e000032",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239f09e000184",
@@ -21144,7 +21144,7 @@ export const dataAffiliateStat = [
         "63701d74f03239b7f7000025",
         "63701d74f032395b3300013c",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239f09e000185",
@@ -21161,7 +21161,7 @@ export const dataAffiliateStat = [
         "63701d74f032395b3300012f",
         "63701d74f032395694000043",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239f09e000186",
@@ -21183,7 +21183,7 @@ export const dataAffiliateStat = [
         "63701d74f03239528f000019",
         "63701d74f03239d81e000031",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239f09e000187",
@@ -21227,7 +21227,7 @@ export const dataAffiliateStat = [
         "63701d74f032399c0000014e",
         "63701d74f032390a34000336",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239f09e000189",
@@ -21253,7 +21253,7 @@ export const dataAffiliateStat = [
       occupation: "Account Representative II",
       phoneNumber: "7229851270",
       transactions: ["63701d74f032394c49000131", "63701d74f032394441000301"],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239f09e00018b",
@@ -21332,7 +21332,7 @@ export const dataAffiliateStat = [
         "63701d74f03239c72c0001a0",
         "63701d74f03239c72c000199",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239db6900011c",
@@ -21371,7 +21371,7 @@ export const dataAffiliateStat = [
         "63701d74f032395694000026",
         "63701d74f03239d81e000041",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239db6900011e",
@@ -21384,7 +21384,7 @@ export const dataAffiliateStat = [
       occupation: "Statistician I",
       phoneNumber: "1363061978",
       transactions: ["63701d74f032396b8e00003c", "63701d74f03239d81e00001e"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239db6900011f",
@@ -21464,7 +21464,7 @@ export const dataAffiliateStat = [
       occupation: "Recruiting Manager",
       phoneNumber: "7549360846",
       transactions: ["63701d74f03239b7f700003f", "63701d74f032395b33000147"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239db69000123",
@@ -21519,7 +21519,7 @@ export const dataAffiliateStat = [
       occupation: "Operator",
       phoneNumber: "7328227068",
       transactions: ["63701d74f0323986f3000144", "63701d74f03239f09e0001ad"],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239db69000126",
@@ -21537,7 +21537,7 @@ export const dataAffiliateStat = [
         "63701d74f03239cdc5000019",
         "63701d74f03239569400001c",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239db69000127",
@@ -21602,7 +21602,7 @@ export const dataAffiliateStat = [
         "63701d74f032399c00000146",
         "63701d74f032398675000149",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239b913000006",
@@ -21621,7 +21621,7 @@ export const dataAffiliateStat = [
         "63701d74f03239b7f7000040",
         "63701d74f032399c00000134",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239b913000007",
@@ -21634,7 +21634,7 @@ export const dataAffiliateStat = [
       occupation: "Account Representative III",
       phoneNumber: "1405174082",
       transactions: ["63701d74f0323986f300015a"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239b913000008",
@@ -21651,7 +21651,7 @@ export const dataAffiliateStat = [
         "63701d74f032395b33000142",
         "63701d74f03239528f000024",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239b913000009",
@@ -21664,7 +21664,7 @@ export const dataAffiliateStat = [
       occupation: "Automation Specialist III",
       phoneNumber: "6994420029",
       transactions: ["63701d74f032398675000132"],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239b91300000a",
@@ -21687,7 +21687,7 @@ export const dataAffiliateStat = [
         "63701d74f032390a3400033c",
         "63701d74f03239d59100032c",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239b91300000b",
@@ -21709,7 +21709,7 @@ export const dataAffiliateStat = [
         "63701d74f03239444100031a",
         "63701d74f03239f09e000192",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239b91300000c",
@@ -21729,7 +21729,7 @@ export const dataAffiliateStat = [
         "63701d74f03239b7f700002d",
         "63701d74f032395b3300014f",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239b91300000d",
@@ -21769,7 +21769,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d591000335",
         "63701d74f03239c72c0001b5",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239b91300000f",
@@ -21787,7 +21787,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d40b00008f",
         "63701d74f03239b7f700003b",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239b913000010",
@@ -21807,7 +21807,7 @@ export const dataAffiliateStat = [
         "63701d74f032394c49000144",
         "63701d74f032390a34000338",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239b913000011",
@@ -21844,7 +21844,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d40b00005d",
         "63701d74f03239d591000334",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239b913000013",
@@ -21887,7 +21887,7 @@ export const dataAffiliateStat = [
         "63701d74f032395b3300013a",
         "63701d74f03239d591000333",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239cdc5000006",
@@ -21904,7 +21904,7 @@ export const dataAffiliateStat = [
         "63701d74f0323986f3000133",
         "63701d74f03239528f00003b",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239cdc5000007",
@@ -21917,7 +21917,7 @@ export const dataAffiliateStat = [
       occupation: "Registered Nurse",
       phoneNumber: "4314563977",
       transactions: ["63701d74f032399c0000012f", "63701d74f032390a34000350"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239cdc5000008",
@@ -21937,7 +21937,7 @@ export const dataAffiliateStat = [
         "63701d74f03239569400001f",
         "63701d74f03239c72c0001b9",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239cdc5000009",
@@ -21987,7 +21987,7 @@ export const dataAffiliateStat = [
       occupation: "Junior Executive",
       phoneNumber: "2391023260",
       transactions: ["63701d74f032395b3300014a", "63701d74f03239d40b00008e"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239cdc500000c",
@@ -22005,7 +22005,7 @@ export const dataAffiliateStat = [
         "63701d74f032399c00000145",
         "63701d74f03239db6900013a",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239cdc500000d",
@@ -22018,7 +22018,7 @@ export const dataAffiliateStat = [
       occupation: "Payment Adjustment Coordinator",
       phoneNumber: "4946177794",
       transactions: ["63701d74f03239f09e0001ae"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239cdc500000e",
@@ -22041,7 +22041,7 @@ export const dataAffiliateStat = [
         "63701d74f03239cdc5000039",
         "63701d74f03239b91300002e",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239cdc500000f",
@@ -22078,7 +22078,7 @@ export const dataAffiliateStat = [
         "63701d74f032396b8e000038",
         "63701d74f03239cdc5000035",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239cdc5000011",
@@ -22135,7 +22135,7 @@ export const dataAffiliateStat = [
         "63701d74f03239cdc500003a",
         "63701d74f032398675000151",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239cdc5000014",
@@ -22148,7 +22148,7 @@ export const dataAffiliateStat = [
       occupation: "Structural Engineer",
       phoneNumber: "7062098184",
       transactions: ["63701d74f032396b8e000040", "63701d74f03239b91300002d"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032399c0000011b",
@@ -22189,7 +22189,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d40b00006a",
         "63701d74f032395b3300014b",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032399c0000011d",
@@ -22213,7 +22213,7 @@ export const dataAffiliateStat = [
         "63701d74f03239db69000137",
         "63701d74f03239c72c0001b3",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032399c0000011e",
@@ -22237,7 +22237,7 @@ export const dataAffiliateStat = [
         "63701d74f03239528f00003f",
         "63701d74f03239db6900014a",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032399c0000011f",
@@ -22256,7 +22256,7 @@ export const dataAffiliateStat = [
         "63701d74f032394441000309",
         "63701d74f03239528f000037",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032399c00000120",
@@ -22289,7 +22289,7 @@ export const dataAffiliateStat = [
         "63701d74f03239b7f7000020",
         "63701d74f03239528f00003e",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032399c00000122",
@@ -22310,7 +22310,7 @@ export const dataAffiliateStat = [
         "63701d74f03239f09e000196",
         "63701d74f032395694000041",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032399c00000123",
@@ -22329,7 +22329,7 @@ export const dataAffiliateStat = [
         "63701d74f032390a3400032f",
         "63701d74f032394c49000131",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032399c00000124",
@@ -22371,7 +22371,7 @@ export const dataAffiliateStat = [
         "63701d74f03239b913000025",
         "63701d74f03239cdc5000034",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032399c00000126",
@@ -22384,7 +22384,7 @@ export const dataAffiliateStat = [
       occupation: "Business Systems Development Analyst",
       phoneNumber: "3848778104",
       transactions: ["63701d74f03239cdc500003b", "63701d74f03239d40b000089"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f032399c00000127",
@@ -22421,7 +22421,7 @@ export const dataAffiliateStat = [
       occupation: "Desktop Support Technician",
       phoneNumber: "6601817739",
       transactions: ["63701d74f0323986f300014d"],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f032399c00000129",
@@ -22434,7 +22434,7 @@ export const dataAffiliateStat = [
       occupation: "Software Test Engineer IV",
       phoneNumber: "7542221334",
       transactions: ["63701d74f032394c49000151", "63701d74f03239d40b000080"],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f0323986f300011b",
@@ -22475,7 +22475,7 @@ export const dataAffiliateStat = [
         "63701d74f03239f09e0001b2",
         "63701d74f03239867500014b",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f0323986f300011d",
@@ -22493,7 +22493,7 @@ export const dataAffiliateStat = [
         "63701d74f03239db6900015b",
         "63701d74f03239b7f7000041",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f0323986f300011e",
@@ -22512,7 +22512,7 @@ export const dataAffiliateStat = [
         "63701d74f03239b7f7000029",
         "63701d74f03239569400003a",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f0323986f300011f",
@@ -22591,7 +22591,7 @@ export const dataAffiliateStat = [
         "63701d74f03239bef000013a",
         "63701d74f03239d40b000060",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f0323986f3000123",
@@ -22630,7 +22630,7 @@ export const dataAffiliateStat = [
         "63701d74f032395694000024",
         "63701d74f03239d40b000089",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f0323986f3000125",
@@ -22669,7 +22669,7 @@ export const dataAffiliateStat = [
         "63701d74f032396b8e000046",
         "63701d74f03239569400001d",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f0323986f3000127",
@@ -22692,7 +22692,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d81e00001c",
         "63701d74f032394441000301",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f0323986f3000128",
@@ -22757,7 +22757,7 @@ export const dataAffiliateStat = [
         "63701d74f032394441000307",
         "63701d74f032395694000043",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239d40b00003a",
@@ -22774,7 +22774,7 @@ export const dataAffiliateStat = [
         "63701d74f03239d591000332",
         "63701d74f03239569400001c",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239d40b00003b",
@@ -22787,7 +22787,7 @@ export const dataAffiliateStat = [
       occupation: "Developer IV",
       phoneNumber: "6824178344",
       transactions: ["63701d74f03239d81e000043", "63701d74f03239f09e0001bf"],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239d40b00003c",
@@ -22800,7 +22800,7 @@ export const dataAffiliateStat = [
       occupation: "Web Designer I",
       phoneNumber: "5559497135",
       transactions: ["63701d74f03239c72c000196"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239d40b00003d",
@@ -22820,7 +22820,7 @@ export const dataAffiliateStat = [
         "63701d74f03239528f00003a",
         "63701d74f032394c49000130",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239d40b00003e",
@@ -22841,7 +22841,7 @@ export const dataAffiliateStat = [
         "63701d74f032396b8e000036",
         "63701d74f03239f09e0001a4",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239d40b00003f",
@@ -22854,7 +22854,7 @@ export const dataAffiliateStat = [
       occupation: "Nurse",
       phoneNumber: "2731484562",
       transactions: ["63701d74f03239b7f700001e"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239d40b000040",
@@ -22885,7 +22885,7 @@ export const dataAffiliateStat = [
       occupation: "Design Engineer",
       phoneNumber: "6449317103",
       transactions: ["63701d74f03239b913000045"],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239d40b000042",
@@ -22916,7 +22916,7 @@ export const dataAffiliateStat = [
       occupation: "Geological Engineer",
       phoneNumber: "8768925153",
       transactions: ["63701d74f032395b33000131", "63701d74f03239b913000030"],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239d40b000044",
@@ -22937,7 +22937,7 @@ export const dataAffiliateStat = [
         "63701d74f03239c72c0001bc",
         "63701d74f03239d59100032d",
       ],
-      role: "user",
+      role: "agent",
     },
     {
       _id: "63701cc1f03239d40b000045",
@@ -22960,7 +22960,7 @@ export const dataAffiliateStat = [
         "63701d74f03239f09e000195",
         "63701d74f03239c72c0001b7",
       ],
-      role: "superadmin",
+      role: "masteragent",
     },
     {
       _id: "63701cc1f03239d40b000046",
