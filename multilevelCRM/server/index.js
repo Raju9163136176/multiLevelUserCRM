@@ -5,6 +5,8 @@ import cors from 'cors'
 import dotenv from 'dotenv'
 import helmet from 'helmet'
 import morgan from 'morgan'
+import dbConnect from './config/dbConnect.js'
+dbConnect();
 import clientRoutes from './routes/client.js'
 import managementRoutes from './routes/management.js'
 import generalRoutes from './routes/general.js'
@@ -37,9 +39,12 @@ mongoose
     useNewUrlParser: true,
     useUnifiedTopology:true,
 }).then(()=>{
-    // console.log("here")
+    console.log("here")
     app.listen(PORT, ()=> console.log(`server started ${PORT}`) )
     /* Onlyy add data one time  */
-    User.insertMany(dataUser)
+   co // User.insertMany(dataUser)
 })
-.catch((error) => console.log(`${error} did not connect`) )
+.catch((error) => {
+    console.log("DB connection Error has occured",error)
+
+} )
