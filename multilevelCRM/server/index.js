@@ -42,7 +42,7 @@ mongoose
     console.log("here")
     app.listen(PORT, ()=> console.log(`server started ${PORT}`) )
     /* Onlyy add data one time  */
-   co // User.insertMany(dataUser)
+   // User.insertMany(dataUser)
 })
 .catch((error) => {
     console.log("DB connection Error has occured",error)
