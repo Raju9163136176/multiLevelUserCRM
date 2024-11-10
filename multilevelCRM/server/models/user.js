@@ -2,9 +2,10 @@ import mongoose from 'mongoose';
 
 const userSchema = new mongoose.Schema(
   {
-    name: {
+    username: {
       type: String,
       required: true,
+      unique:true,
       minlength: 2,
       maxlength: 100,
     },
@@ -40,6 +41,7 @@ const userSchema = new mongoose.Schema(
     },
     role: {
       type: String,
+      require:true,
       enum: [
         "masteragent",
         "agent",
@@ -47,6 +49,8 @@ const userSchema = new mongoose.Schema(
         "superadmin",
         "admin",
         "processor",
+        "manager",
+        "teamleader",
         "developer",
       ],
       required: true,

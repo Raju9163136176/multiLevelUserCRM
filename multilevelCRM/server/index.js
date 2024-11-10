@@ -6,7 +6,6 @@ import dotenv from 'dotenv'
 import helmet from 'helmet'
 import morgan from 'morgan'
 import dbConnect from './config/dbConnect.js'
-dbConnect();
 import clientRoutes from './routes/client.js'
 import managementRoutes from './routes/management.js'
 import generalRoutes from './routes/general.js'
@@ -32,14 +31,12 @@ app.use("/management",managementRoutes)
 app.use("/general",generalRoutes)
 app.use("/sales",salesRoutes)
 
+// connect to db
+
+
 /* mongoose */
 const PORT = process.env.PORT || 9000
-mongoose
-.connect(process.env.MONGO_URL,{
-    useNewUrlParser: true,
-    useUnifiedTopology:true,
-}).then(()=>{
-    console.log("here")
+dbConnect().then(()=>{
     app.listen(PORT, ()=> console.log(`server started ${PORT}`) )
     /* Onlyy add data one time  */
    // User.insertMany(dataUser)
