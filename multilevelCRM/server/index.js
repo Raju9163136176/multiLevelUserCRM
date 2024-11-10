@@ -10,6 +10,7 @@ import clientRoutes from './routes/client.js'
 import managementRoutes from './routes/management.js'
 import generalRoutes from './routes/general.js'
 import salesRoutes from './routes/sales.js'
+import authRouter from './routes/authRoutes.js'
 // import mongoose from 'mongoose';
 
 import User from './models/user.js'
@@ -30,10 +31,10 @@ app.use("/client",clientRoutes)
 app.use("/management",managementRoutes)
 app.use("/general",generalRoutes)
 app.use("/sales",salesRoutes)
+app.use("/api/auth",authRouter)
 
-// connect to db
 
-
+// connect to db and start the server
 /* mongoose */
 const PORT = process.env.PORT || 9000
 dbConnect().then(()=>{

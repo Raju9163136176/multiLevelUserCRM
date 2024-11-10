@@ -1,20 +1,40 @@
+import User from "../models/user.js";
+import bcrypt from "bcryptjs";
+import jwt from "jsonwebtoken";
 
-const User = require("../models/user")
-const bcrypt = require("bycryptjs")
-const jwt = require("jsonwebtoken")
-const register = async(res,req)=>{
-      const  {username,password,role} = req.body
-      const hasHashedPassword = await bcrypt.hash(password,10)
-      const newUSer = new User({username, password:hasHashedPassword, role })
-      newUSer.save()
-      res.status(201).json()
-}
+export const register = async (req, res) => {
+    try {
+        const { username, password, role } = req.body;
+        const hashedPassword = await bcrypt.hash(password, 10);
+        const newUser = new User({ username, password: hashedPassword, role });
+        await newUser.save();
+        res.status(201).json({ message: `User has registered: ${username}` });
+    } catch (error) {
+        res.status(500).json({ message: "User registration failed" });
+    }
+};
 
-const login =async(res,req)=>{
+export const login = async (req, res) => {
+    try {
+        const { username, password } = req.body;
+        const user = await User.findOne({ username });
+        if (!user) {
+            return res.status(404).json({ message: `User with username ${username} not found or not registered` });
+        }
 
-}
+        const isMatch = await bcrypt.compare(password, user.password);
+        if (!isMatch) {
+            return res.status(400).json({ message: "Invalid credentials" });
+        }
 
-module.export = {
-    register,
-    login
-}
+        const token = jwt.sign(
+            { id: user._id, role: user.role },
+            process.env.JWT_SECRET,
+            { expiresIn: "1h" }
+        );
+
+        return res.status(200).json({ token });
+    } catch (error) {
+        res.status(500).json({ message: "Login failed" });
+    }
+};
