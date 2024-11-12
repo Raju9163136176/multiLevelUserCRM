@@ -11,6 +11,7 @@ import managementRoutes from './routes/management.js'
 import generalRoutes from './routes/general.js'
 import salesRoutes from './routes/sales.js'
 import authRouter from './routes/authRoutes.js'
+import userRoutes from './routes/userRoutes.js'
 // import mongoose from 'mongoose';
 
 import User from './models/user.js'
@@ -32,6 +33,7 @@ app.use("/management",managementRoutes)
 app.use("/general",generalRoutes)
 app.use("/sales",salesRoutes)
 app.use("/api/auth",authRouter)
+app.use("/api/users",userRoutes)
 
 
 // connect to db and start the server
