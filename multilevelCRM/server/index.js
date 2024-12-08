@@ -15,7 +15,7 @@ import userRoutes from './routes/userRoutes.js'
 // import mongoose from 'mongoose';
 
 import User from './models/user.js'
-import { dataUser } from './data/index.js'
+// import { dataUser } from './data/index.js'
 /* configuration */
 dotenv.config()
 const app = express()
