@@ -34,7 +34,9 @@ app.use("/general",generalRoutes)
 app.use("/sales",salesRoutes)
 app.use("/api/auth",authRouter)
 app.use("/api/users",userRoutes)
-
+app.get('/',(req,res)=>{
+    res.send("test me")
+})
 
 // connect to db and start the server
 /* mongoose */
@@ -48,3 +50,4 @@ dbConnect().then(()=>{
     console.log("DB connection Error has occured",error)
 
 } )
+
